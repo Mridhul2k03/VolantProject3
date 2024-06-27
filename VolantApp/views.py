@@ -15,8 +15,6 @@ from django.utils.decorators import method_decorator
 from django.db.models import Sum
 
 # Create your views here.
-
-
 class Home(TemplateView):
     template_name = 'index.html'
     
